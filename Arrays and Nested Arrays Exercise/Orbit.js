@@ -76,4 +76,3 @@ function orbit([width, height, x, y]) {
         console.log(array.join(" "));
     }
 }
-orbit([3, 3, 2, 2]);
