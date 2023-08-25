@@ -26,6 +26,10 @@ function solve() {
            parentElement.innerHTML += html
         }
 
+        get online() {
+            return this._online
+        }
+        
         set online(value) {
             this._online = value;
             const articles = document.getElementsByTagName("article");
